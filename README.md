@@ -13,7 +13,7 @@
 | [Beach Bars](week02/beach_bars/beach_bars.pdf)                               | [main.cpp](week02/beach_bars/src/main.cpp)           | Week 02 | Dynamic Programming  | Solved      |
 | [The Great Game](week02/the_great_game/the_great_game.pdf)                   | [main.cpp](week02/the_great_game/src/main.cpp)       | Week 02 | -                    | TODO        |
 | [Search Snippets](week02/search_snippets/search_snippets.pdf)                | [main.cpp](week02/search_snippets/src/main.cpp)      | Week 02 | Sliding Window       | Solved      |
-| [San Francisco*](week02/pow_san_francisco/san_francisco.pdf)                 | [main.cpp](week02/pow_san_francisco/src/main.cpp)    | Week 02 | -                    | TODO        |
+| [San Francisco*](week02/pow_san_francisco/san_francisco.pdf)                 | [main.cpp](week02/pow_san_francisco/src/main.cpp)    | Week 02 | Dynamic Programming  | In Progress |
 | [First Steps with BGL](week03/first_steps_with_bgl/first_steps_with_bgl.pdf) | [main.cpp](week03/first_steps_with_bgl/src/main.cpp) | Week 03 | Introduction to BGL  | Solved      |
 | [Ant Challenge](week03/ant_challenge/ant_challenge.pdf)                      | [main.cpp](week03/ant_challenge/src/main.cpp)        | Week 03 | MST & Shortest Paths | Solved      |
 
