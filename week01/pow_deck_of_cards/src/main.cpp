@@ -3,54 +3,48 @@
 
 using namespace std;
 
-
-
-int solve_n2() {
-  int n;
-  cin >> n;
-  
-  int k;
-  cin >> k;
-  
-  vector<int> sums;
-  
+int solve(int n, int k) {
   // read vals
-  int val;
-  cin >> val;
-  sums.push_back(val);
+  vector<int> vals;
+  int val; cin >> val;
+  vals.push_back(val);
   for (int i = 1; i < n; i++) {
-    int val;
-    cin >> val;
-    val += sums[i-1];
-    sums.push_back(val);
+    int val; cin >> val;
+    vals.push_back(val);
   }
   
-  // solve
-  int low = 0;
-  int high = 0;
+  // init 
+  int left = 0; int right = 0;
+  int low = 0; int high = 0;
   
-  int closest = abs(k-sums[0]);
-  for (int i=0; i < n; i++) {
-    for (int j=i; j < n; j++) {
-      int sum_low = sums[i];
-      int sum_high = sums[j];
-      
-      if (abs(k-(sum_high)) < closest) {
-        int diff = abs(k-(sum_high));
-        closest = diff;
-        
-        low = 0;
-        high = j;
-      
-      } else if (abs(k-(sum_high-sum_low)) < closest) {
-        // check closest
-        int diff = abs(k-(sum_high-sum_low));
-        closest = diff;
-        
-        low = i+1;
-        high = j;
+  int closest = abs(k-vals[0]);
+  int current_sum=0;
+  
+  while (right < n) {
+    current_sum += vals[right]; 
+    
+    // check for new best
+    if (abs(current_sum - k) < closest) {
+      closest = abs(current_sum -k);
+      low = left;
+      high = right;
+    }
+
+    // increase the left pointer if the difference is to big
+    while ((current_sum - k >= closest) & (left <= right)) {
+      current_sum -= vals[left];
+      left++;
+
+      // check again for new best in order to increase 
+      // left as much as possible
+      if (abs(current_sum - k) < closest) {
+        closest = abs(current_sum -k);
+        low = left;
+        high = right;
       }
-    } 
+    }
+
+    right++;
   }
   
   cout << low << " " << high << endl;
@@ -63,7 +57,8 @@ int main() {
   
   
   for (int t=0; t < T; t++) {
-    solve_n2();
+    int n; int k; cin >> n >> k;
+    solve(n, k);
   }
   
   return 0;
