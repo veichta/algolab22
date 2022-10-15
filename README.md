@@ -17,6 +17,7 @@
 | First Steps with BGL | [main.cpp](week03/first_steps_with_bgl/src/main.cpp) | Week 03 | Introduction to BGL  | Solved      |
 | Ant Challenge        | [main.cpp](week03/ant_challenge/src/main.cpp)        | Week 03 | MST & Shortest Paths | Solved      |
 | Buddy Selection      | [main.cpp](week03/buddy_selection/src/main.cpp)      | Week 03 | Max Matching         | Solved      |
+| Important Bridges    | [main.cpp](week03/important_bridges/src/main.cpp)    | Week 03 | Connected Components | Solved      |
 
 ## Legend
 - *: This was a 'Problem of the Week'
