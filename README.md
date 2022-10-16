@@ -19,7 +19,8 @@
 | Buddy Selection      | [main.cpp](week03/buddy_selection/src/main.cpp)      | Week 03 | Max Matching         | Solved      |
 | Important Bridges    | [main.cpp](week03/important_bridges/src/main.cpp)    | Week 03 | Connected Components | Solved      |
 | Greyjoy              | [main.cpp](week03/greyjoy/src/main.cpp)              | Week 03 | -                    | TODO        |
-| Antenna              | [main.cpp](week04/antenna/src/main.cpp)              | Week 03 | Min Enclosing Circle | Solved      |
+| Antenna              | [main.cpp](week04/antenna/src/main.cpp)              | Week 04 | Min Enclosing Circle | Solved      |
+| Hit                  | [main.cpp](week04/hit/src/main.cpp)                  | Week 04 | Intersection Test    | Solved      |
 
 ## Legend
 - *: This was a 'Problem of the Week'
