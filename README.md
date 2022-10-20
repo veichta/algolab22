@@ -18,9 +18,11 @@
 | Ant Challenge        | [main.cpp](week03/ant_challenge/src/main.cpp)        | Week 03 | MST & Shortest Paths | Solved      |
 | Buddy Selection      | [main.cpp](week03/buddy_selection/src/main.cpp)      | Week 03 | Max Matching         | Solved      |
 | Important Bridges    | [main.cpp](week03/important_bridges/src/main.cpp)    | Week 03 | Connected Components | Solved      |
-| Greyjoy              | [main.cpp](week03/greyjoy/src/main.cpp)              | Week 03 | -                    | TODO        |
-| Antenna              | [main.cpp](week04/antenna/src/main.cpp)              | Week 04 | Min Enclosing Circle | Solved      |
+| Greyjoy*             | [main.cpp](week03/greyjoy/src/main.cpp)              | Week 03 | -                    | TODO        |
 | Hit                  | [main.cpp](week04/hit/src/main.cpp)                  | Week 04 | Intersection Test    | Solved      |
+| Antenna              | [main.cpp](week04/antenna/src/main.cpp)              | Week 04 | Min Enclosing Circle | Solved      |
+| Hiking Map           | [main.cpp](week04/hiking_map/src/main.cpp)           | Week 04 | -                    | TODO        |
+| First Hit            | [main.cpp](week04/first_hit/src/main.cpp)            | Week 04 | Intersection Test    | Solved      |
 
 ## Legend
 - *: This was a 'Problem of the Week'
