@@ -5,7 +5,6 @@
 #include <CGAL/Exact_predicates_exact_constructions_kernel_with_sqrt.h>
 #include <CGAL/Min_circle_2.h>
 #include <CGAL/Min_circle_2_traits_2.h>
-#include <vector>
 
 using namespace std;
 
