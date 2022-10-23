@@ -23,6 +23,7 @@
 | Antenna              | [main.cpp](week04/antenna/src/main.cpp)              | Week 04 | Min Enclosing Circle | Solved      |
 | Hiking Map           | [main.cpp](week04/hiking_map/src/main.cpp)           | Week 04 | -                    | TODO        |
 | First Hit            | [main.cpp](week04/first_hit/src/main.cpp)            | Week 04 | Intersection Test    | Solved      |
+| Boats                | [main.cpp](week05/boats/src/main.cpp)                | Week 05 | Greedy               | Solved      |
 
 ## Legend
 - *: This was a 'Problem of the Week'
