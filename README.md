@@ -23,7 +23,11 @@
 | Antenna              | [main.cpp](week04/antenna/src/main.cpp)              | Week 04 | Min Enclosing Circle | Solved      |
 | Hiking Map           | [main.cpp](week04/hiking_map/src/main.cpp)           | Week 04 | -                    | TODO        |
 | First Hit            | [main.cpp](week04/first_hit/src/main.cpp)            | Week 04 | Intersection Test    | Solved      |
+| Tracking*            | [main.cpp](week04/tracking/src/main.cpp)             | Week 04 | -                    | TODO        |
 | Boats                | [main.cpp](week05/boats/src/main.cpp)                | Week 05 | Greedy               | Solved      |
+| Moving Books         | [main.cpp](week05/moving_books/src/main.cpp)         | Week 05 | -                    | TODO        |
+| Severus Snape        | [main.cpp](week05/severus_snape/src/main.cpp)        | Week 05 | -                    | TODO        |
+| Asterix the Gaul     | [main.cpp](week05/asterix_the_gaul/src/main.cpp)     | Week 05 | -                    | TODO        |
 
 ## Legend
 - *: This was a 'Problem of the Week'
