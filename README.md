@@ -26,7 +26,7 @@
 | Tracking*            | [main.cpp](week04/tracking/src/main.cpp)             | Week 04 | -                    | TODO        |
 | Boats                | [main.cpp](week05/boats/src/main.cpp)                | Week 05 | Greedy               | Solved      |
 | Moving Books         | [main.cpp](week05/moving_books/src/main.cpp)         | Week 05 | Greedy               | Solved      |
-| Severus Snape        | [main.cpp](week05/severus_snape/src/main.cpp)        | Week 05 | -                    | TODO        |
+| Severus Snape        | [main.cpp](week05/severus_snape/src/main.cpp)        | Week 05 | DP + Greedy          | Solved      |
 | Asterix the Gaul     | [main.cpp](week05/asterix_the_gaul/src/main.cpp)     | Week 05 | -                    | TODO        |
 
 ## Legend
