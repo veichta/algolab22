@@ -1,113 +1,62 @@
 #include<iostream>
 #include<vector>
+#include<climits>
 
 using namespace std;
 
-
-int f(
-  vector<vector<int>> &memo, 
-  const vector<vector<pair<int, int>>> &c, 
-  int u, int k
-) {
-  int res = 0;
-  if (k == 0) {
-    return res;
-  } else {
-    bool sink = true;
-    for (unsigned int i=1; i < c[u].size(); i++) {
-      int v = c[u][i].first;
-      int r = c[u][i].second;
-      
-      if (r >= 0) {
-        
-        if (memo[v][k-1] >=0) {
-          res = max(res, r + memo[v][k-1]);
-          // cout << "Reading f(" << u << ", " << v <<") from memo" << endl;
-          
-        } else {
-          int val = f(memo, c, v, k-1);
-          memo[v][k-1] = val;
-          res = max(res, r + val);
-          
-        }
-        sink = false;
-      }
-    }
-    
-    if (sink) {
-      res = f(memo, c, 0, k);
-    }
-    
-    return res;
-  }
-}
-
-int solve() {
-  int n;
-  cin >> n;
-  int m;
-  cin >> m;
-  
-  int x;
-  cin >> x;
-  
-  int k;
-  cin >> k;
+void solve() {
+  long n, m, x, k; cin >> n >> m >> x >> k;
   
   // init canals
-  // vector<vector<int>> canals(n, vector<int> (m, -1));
-  // for (int i=0; i<m; i++) {
-  //   int u; int v; int r;
-  //   cin >> u;
-  //   cin >> v;
-  //   cin >> r;
-  //   canals[u][v] = max(canals[u][v], r);
-  // }
-  
-  vector<vector<pair<int, int>>> canals(n, vector<pair<int, int>> (1, make_pair(-1, -1)));
-  // cout << canals[0][0].first << endl;
-  for (int i=0; i<m; i++) {
-    int u; int v; int r;
-    cin >> u;
-    cin >> v;
-    cin >> r;
+  vector<vector<pair<long, long>>> canals(n, vector<pair<long, long>>(0));
+  for (long i=0; i<m; i++) {
+    long u, v, r; cin >> u >> v >> r;
     canals[u].push_back(make_pair(v, r));
   }
   
-  // store all f(u, k')
-  vector<vector<int>> memo(n, vector<int> (k, -1));
-  // check for all i < k
-  int sol = -1;
-  for (int i=1; i <= k; i++) {
-    int max_val = f(memo, canals, 0, i);
-    
-    //cout << "i: " << i << ", diff: "<< max_val-x << endl;
-
-    if (max_val >= x) {
-      sol = i;
-      break;
+  // init dp
+  long res = LONG_MAX;
+  vector<vector<long>> dp(k+1, vector<long>(n, -1));
+  dp[0][0] = 0;
+  
+  // write ahead each round
+  for (long j=0; j<k; j++) {
+    for(long source=0; source<n; source++) {
+      if (dp[j][source] != -1) {
+        long m = canals[source].size();
+        
+        for (long i=0; i<m; i++) {
+          long next = canals[source][i].first;
+          long reward = canals[source][i].second;
+          
+          if (canals[next].size() == 0) { // next is a sink -> move to 0 in no steps
+            dp[j+1][0] = max(dp[j+1][0], dp[j][source] + reward);
+            // dp[j+1][next] = max(dp[j+1][next], dp[j][source] + reward);
+            
+            if (dp[j+1][0] >= x)
+              res = min(res, (long) j+1);
+              
+          } else {
+            dp[j+1][next] = max(dp[j+1][next], dp[j][source] + reward);
+            
+            if (dp[j+1][next] >= x)
+              res = min(res, (long) j+1);
+          }
+        }
+      }
     }
   }
   
-  // print solution
-  if (sol >= 0) {
-    cout << sol << endl;
+  if (res < LONG_MAX) {
+    cout << res << endl;
   } else {
     cout << "Impossible" << endl;
   }
-  
-  //cout << endl;
-  return 0;
 }
 
-
 int main() {
-  int T;
-  cin >> T;
-  
-  for (int t=0; t<T; t++) {
-    solve();
-  }
-  
+  ios_base::sync_with_stdio(false);
+  long T; cin >> T;
+  while(T--) { solve(); }
   return 0;
 }
