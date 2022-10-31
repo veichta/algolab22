@@ -33,6 +33,7 @@
 | Diet                 | [main.cpp](week06/diet/src/main.cpp)                 | Week 06 | -                    | TODO        |
 | Inball               | [main.cpp](week06/inball/src/main.cpp)               | Week 06 | -                    | TODO        |
 | Suez                 | [main.cpp](week06/suez/src/main.cpp)                 | Week 06 | -                    | TODO        |
+| Octopusy*            | [main.cpp](week06/octopusy/src/main.cpp)             | Week 06 | Greedy               | Solved      |
 
 ## Legend
 - *: This was a 'Problem of the Week'
