@@ -29,9 +29,9 @@
 | Severus Snape        | [main.cpp](week05/severus_snape/src/main.cpp)        | Week 05 | DP + Greedy          | Solved      |
 | Asterix the Gaul     | [main.cpp](week05/asterix_the_gaul/src/main.cpp)     | Week 05 | -                    | TODO        |
 | Motorcycles*         | [main.cpp](week05/motorcycles/src/main.cpp)          | Week 05 | Intersection Test    | In Progress |
-| Maximize It          | [main.cpp](week06/what_is_the_max/src/main.cpp)      | Week 06 | Linear Programming   | Solved      |
-| Diet                 | [main.cpp](week06/diet/src/main.cpp)                 | Week 06 | Linear Programming   | Solved      |
-| Inball               | [main.cpp](week06/inball/src/main.cpp)               | Week 06 | -                    | TODO        |
+| Maximize It          | [main.cpp](week06/what_is_the_max/src/main.cpp)      | Week 06 | Linear Programing    | Solved      |
+| Diet                 | [main.cpp](week06/diet/src/main.cpp)                 | Week 06 | Linear Programing    | Solved      |
+| Inball               | [main.cpp](week06/inball/src/main.cpp)               | Week 06 | Linear Programing    | Solved      |
 | Suez                 | [main.cpp](week06/suez/src/main.cpp)                 | Week 06 | -                    | TODO        |
 | Octopusy*            | [main.cpp](week06/octopusy/src/main.cpp)             | Week 06 | Greedy               | Solved      |
 
