@@ -1,4 +1,3 @@
-///3
 #include<iostream>
 #include<vector>
 
@@ -14,7 +13,6 @@ typedef CGAL::Gmpz ET;
 
 typedef CGAL::Quadratic_program<IT> Program;
 typedef CGAL::Quadratic_program_solution<ET> Solution;
-
 
 
 bool check_lp(const vector<vector<int>> stalls, int a, int p) {
@@ -74,7 +72,7 @@ void solve() {
     P[i] = pi + P[i-1];
   }
   
-  int res = 45;
+  int res = 49;
   for (int i=0; i<=4; i++) {
     for (int j=0; j<=4; j++) {
       bool success = check_lp(stalls, A[i], P[j]);
@@ -84,12 +82,11 @@ void solve() {
     }
   }
   
-  if (res < 45) {
+  if (res < 49) {
     cout << res << endl;
   } else {
     cout << "Impossible!" << endl;
   }
-  
 }
 
 
