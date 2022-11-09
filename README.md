@@ -35,7 +35,7 @@
 | Suez                    | [main.cpp](week06/suez/src/main.cpp)                    | Week 06 | -                    | TODO        |
 | Octopusy*               | [main.cpp](week06/octopusy/src/main.cpp)                | Week 06 | Greedy               | Solved      |
 | Coin Tossing Tournament | [main.cpp](week07/coin_tossing_tournament/src/main.cpp) | Week 07 | Max Flow             | Solved      |
-| Shopping Trip           | [main.cpp](week07/shopping_trip/src/main.cpp)           | Week 07 | -                    | TODO        |
+| Shopping Trip           | [main.cpp](week07/shopping_trip/src/main.cpp)           | Week 07 | Max Flow             | Solved      |
 | London                  | [main.cpp](week07/london/src/main.cpp)                  | Week 07 | -                    | TODO        |
 | Tiles                   | [main.cpp](week07/tiles/src/main.cpp)                   | Week 07 | -                    | TODO        |
 | The Augean Stables*     | [main.cpp](week07/the_augean_stables/src/main.cpp)      | Week 07 | Linear Programing    | In Progress |
