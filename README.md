@@ -6,7 +6,7 @@
 |-------------------------|---------------------------------------------------------|---------|----------------------|-------------|
 | Build the Sum           | [main.cpp](week01/build_the_sum/src/main.cpp)           | Week 01 | Introduction to C++  | Solved      |
 | Dominos                 | [main.cpp](week01/dominos/src/main.cpp)                 | Week 01 | Sliding Window       | Solved      |
-| Even Pairs              | [main.cpp](week01/even_pairs/src/main.cpp)              | Week 01 | -                    | Solved      |
+| Even Pairs              | [main.cpp](week01/even_pairs/src/main.cpp)              | Week 01 | Precompute           | Solved      |
 | Even Matrices           | [main.cpp](week01/even_matrices/src/main.cpp)           | Week 01 | -                    | TODO        |
 | Deck of Cards*          | [main.cpp](week01/pow_deck_of_cards/src/main.cpp)       | Week 01 | Sliding Window       | Solved      |
 | Burning Coins           | [main.cpp](week02/burning_coins/src/main.cpp)           | Week 02 | Dynamic Programing   | Solved      |
@@ -39,6 +39,10 @@
 | London                  | [main.cpp](week07/london/src/main.cpp)                  | Week 07 | Max Flow             | Solved      |
 | Tiles                   | [main.cpp](week07/tiles/src/main.cpp)                   | Week 07 | -                    | TODO        |
 | The Augean Stables*     | [main.cpp](week07/the_augean_stables/src/main.cpp)      | Week 07 | Linear Programing    | In Progress |
+| Bistro                  | [main.cpp](week08/bistro/src/main.cpp)                  | Week 08 | -                    | TODO        |
+| Light the Stage         | [main.cpp](week08/light_the_stage/src/main.cpp)         | Week 08 | -                    | TODO        |
+| H1N1                    | [main.cpp](week08/h1n1/src/main.cpp)                    | Week 08 | -                    | TODO        |
+| Germs                   | [main.cpp](week08/germs/src/main.cpp)                   | Week 08 | -                    | TODO        |
 
 ## Legend
 - *: This was a 'Problem of the Week'
