@@ -39,7 +39,7 @@
 | London                  | [main.cpp](week07/london/src/main.cpp)                  | Week 07 | Max Flow             | Solved      |
 | Tiles                   | [main.cpp](week07/tiles/src/main.cpp)                   | Week 07 | -                    | TODO        |
 | The Augean Stables*     | [main.cpp](week07/the_augean_stables/src/main.cpp)      | Week 07 | Linear Programing    | In Progress |
-| Bistro                  | [main.cpp](week08/bistro/src/main.cpp)                  | Week 08 | -                    | TODO        |
+| Bistro                  | [main.cpp](week08/bistro/src/main.cpp)                  | Week 08 | Triangulation        | Solved      |
 | Light the Stage         | [main.cpp](week08/light_the_stage/src/main.cpp)         | Week 08 | -                    | TODO        |
 | H1N1                    | [main.cpp](week08/h1n1/src/main.cpp)                    | Week 08 | -                    | TODO        |
 | Germs                   | [main.cpp](week08/germs/src/main.cpp)                   | Week 08 | -                    | TODO        |
