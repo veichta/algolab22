@@ -43,6 +43,7 @@
 | Light the Stage         | [main.cpp](week08/light_the_stage/src/main.cpp)         | Week 08 | Triangulation        | Solved      |
 | H1N1                    | [main.cpp](week08/h1n1/src/main.cpp)                    | Week 08 | -                    | TODO        |
 | Germs                   | [main.cpp](week08/germs/src/main.cpp)                   | Week 08 | -                    | TODO        |
+| Knights*                | [main.cpp](week08/knights/src/main.cpp)                 | Week 08 | Max Flow             | Solved      |
 
 ## Legend
 - *: This was a 'Problem of the Week'
