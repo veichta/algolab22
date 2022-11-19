@@ -44,6 +44,10 @@
 | H1N1                    | [main.cpp](week08/h1n1/src/main.cpp)                    | Week 08 | -                    | TODO        |
 | Germs                   | [main.cpp](week08/germs/src/main.cpp)                   | Week 08 | -                    | TODO        |
 | Knights*                | [main.cpp](week08/knights/src/main.cpp)                 | Week 08 | Max Flow             | Solved      |
+| Algocoon                | [main.cpp](week09/algocoon/src/main.cpp)                | Week 09 | Min Cut              | Solved      |
+| Placing Knights         | [main.cpp](week09/placing_knights/src/main.cpp)         | Week 09 | -                    | TODO        |
+| Real Estate Market      | [main.cpp](week09/real_estate_market/src/main.cpp)      | Week 09 | -                    | TODO        |
+| Casino Royale           | [main.cpp](week09/casino_royale/src/main.cpp)           | Week 09 | -                    | TODO        |
 
 ## Legend
 - *: This was a 'Problem of the Week'
