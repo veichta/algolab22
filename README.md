@@ -46,7 +46,7 @@
 | Knights*                | [main.cpp](week08/knights/src/main.cpp)                 | Week 08 | Max Flow                | Solved      |
 | Algocoon                | [main.cpp](week09/algocoon/src/main.cpp)                | Week 09 | Min Cut                 | Solved      |
 | Placing Knights         | [main.cpp](week09/placing_knights/src/main.cpp)         | Week 09 | Maximum Independent Set | Solved      |
-| Real Estate Market      | [main.cpp](week09/real_estate_market/src/main.cpp)      | Week 09 | -                       | TODO        |
+| Real Estate Market      | [main.cpp](week09/real_estate_market/src/main.cpp)      | Week 09 | Min Cost Max Flow       | Solved      |
 | Casino Royale           | [main.cpp](week09/casino_royale/src/main.cpp)           | Week 09 | -                       | TODO        |
 
 ## Legend
