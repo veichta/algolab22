@@ -32,7 +32,7 @@
 | Maximize It             | [main.cpp](week06/what_is_the_max/src/main.cpp)         | Week 06 | Linear Programing       | Solved      |
 | Diet                    | [main.cpp](week06/diet/src/main.cpp)                    | Week 06 | Linear Programing       | Solved      |
 | Inball                  | [main.cpp](week06/inball/src/main.cpp)                  | Week 06 | Linear Programing       | Solved      |
-| Suez                    | [main.cpp](week06/suez/src/main.cpp)                    | Week 06 | -                       | TODO        |
+| Suez                    | [main.cpp](week06/suez/src/main.cpp)                    | Week 06 | Linear Programing       | Solved      |
 | Octopusy*               | [main.cpp](week06/octopusy/src/main.cpp)                | Week 06 | Greedy                  | Solved      |
 | Coin Tossing Tournament | [main.cpp](week07/coin_tossing_tournament/src/main.cpp) | Week 07 | Max Flow                | Solved      |
 | Shopping Trip           | [main.cpp](week07/shopping_trip/src/main.cpp)           | Week 07 | Max Flow                | Solved      |
