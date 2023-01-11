@@ -1,5 +1,8 @@
 # Algorithms Lab 2022
 
+## Explanaitions
+The notion page contianing all exercises and solutions can be found [here](https://veichta.notion.site/917fbc8bb0914c46b01472a6df82deff?v=5dd5ee0d7119409cada391187653b84d).
+
 ## Problems
 
 | Task                                | Implementation                                                      | Week    | Topics                               | Status            |
@@ -58,7 +61,7 @@
 | Asterix in Switzerland              | [main.cpp](week11/asterix_in_switzerland/src/main.cpp)              | Week 11 | Max Flow                             | Done              |
 | The Fighting Pits of Meereen        | [main.cpp](week11/the_fighting_pits_of_meereen/src/main.cpp)        | Week 11 | -                                    | TODO              |
 | Sith                                | [main.cpp](week11/sith/src/main.cpp)                                | Week 11 | Connected Components & Triangulation | Done              |
-| World Cup                           | [main.cpp](week11/worldcup/src/main.cpp)                            | Week 11 | -                                    | TODO              |
+| World Cup                           | [main.cpp](week11/worldcup/src/main.cpp)                            | Week 11 | Linear Programing                    | Solved            |
 | Rubeus Hagrid*                      | [main.cpp](week11/rubeus_hagrid/src/main.cpp)                       | Week 11 | -                                    | TODO              |
 | Car Sharing                         | [main.cpp](week12/car_sharing/src/main.cpp)                         | Week 12 | -                                    | TODO              |
 | Lord Voldemort                      | [main.cpp](week12/lord_voldemort/src/main.cpp)                      | Week 12 | -                                    | TODO              |
