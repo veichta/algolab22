@@ -1,8 +1,5 @@
 # Algorithms Lab 2022
 
-## Explanaitions
-The notion page contianing all exercises and solutions can be found [here](https://veichta.notion.site/917fbc8bb0914c46b01472a6df82deff?v=5dd5ee0d7119409cada391187653b84d).
-
 ## Problems
 
 | Task                                | Implementation                                                      | Week    | Topics                               | Status            |
