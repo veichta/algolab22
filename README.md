@@ -50,20 +50,20 @@
 | Casino Royale                       | [main.cpp](week09/casino_royale/src/main.cpp)                       | Week 09 | -                                    | TODO              |
 | Hand*                               | [main.cpp](week09/hand/src/main.cpp)                                | Week 09 | -                                    | TODO              |
 | Clues                               | [main.cpp](week10/clues/src/main.cpp)                               | Week 10 | -                                    | TODO              |
-| DHL                                 | [main.cpp](week10/DHL/src/main.cpp)                                 | Week 10 | DP                                   | Done              |
+| DHL                                 | [main.cpp](week10/DHL/src/main.cpp)                                 | Week 10 | DP                                   | Solved            |
 | New York                            | [main.cpp](week10/new_york/src/main.cpp)                            | Week 10 | -                                    | In Progress (40%) |
 | Fleetrace                           | [main.cpp](week10/fleetrace/src/main.cpp)                           | Week 10 | Min Cost Max Flow                    | Solved            |
 | New Tiles                           | [main.cpp](week10/new_tiles/src/main.cpp)                           | Week 10 | -                                    | TODO              |
 | Ceryneian Hind*                     | [main.cpp](week10/ceryneian_hind/src/main.cpp)                      | Week 10 | -                                    | TODO              |
-| Asterix in Switzerland              | [main.cpp](week11/asterix_in_switzerland/src/main.cpp)              | Week 11 | Max Flow                             | Done              |
+| Asterix in Switzerland              | [main.cpp](week11/asterix_in_switzerland/src/main.cpp)              | Week 11 | Max Flow                             | Solved            |
 | The Fighting Pits of Meereen        | [main.cpp](week11/the_fighting_pits_of_meereen/src/main.cpp)        | Week 11 | -                                    | TODO              |
-| Sith                                | [main.cpp](week11/sith/src/main.cpp)                                | Week 11 | Connected Components & Triangulation | Done              |
+| Sith                                | [main.cpp](week11/sith/src/main.cpp)                                | Week 11 | Connected Components & Triangulation | Solved            |
 | World Cup                           | [main.cpp](week11/worldcup/src/main.cpp)                            | Week 11 | Linear Programing                    | Solved            |
 | Rubeus Hagrid*                      | [main.cpp](week11/rubeus_hagrid/src/main.cpp)                       | Week 11 | -                                    | TODO              |
 | Car Sharing                         | [main.cpp](week12/car_sharing/src/main.cpp)                         | Week 12 | -                                    | TODO              |
 | Lord Voldemort                      | [main.cpp](week12/lord_voldemort/src/main.cpp)                      | Week 12 | -                                    | TODO              |
 | Nemean Lion                         | [main.cpp](week12/nemean_lion/src/main.cpp)                         | Week 12 | -                                    | TODO              |
-| On her Majesty's Secret Service     | [main.cpp](week12/on_her_majestys_secret_service/src/main.cpp)      | Week 12 | -                                    | TODO              |
+| On her Majesty's Secret Service     | [main.cpp](week12/on_her_majestys_secret_service/src/main.cpp)      | Week 12 | Max Matching & Shortest Paths        | Solved            |
 | Strikesback*                        | [main.cpp](week12/strikesback/src/main.cpp)                         | Week 12 | -                                    | TODO              |
 | Idefix and the Mansions of the Gods | [main.cpp](week13/idefix_and_the_mansions_of_the_gods/src/main.cpp) | Week 13 | -                                    | TODO              |
 | Asterix and the Chariot Race        | [main.cpp](week13/asterix_and_the_chario_race/src/main.cpp)         | Week 13 | -                                    | TODO              |
