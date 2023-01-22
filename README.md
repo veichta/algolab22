@@ -47,7 +47,7 @@
 | Algocoon                            | [main.cpp](week09/algocoon/src/main.cpp)                            | Week 09 | Min Cut                              | Solved            |
 | Placing Knights                     | [main.cpp](week09/placing_knights/src/main.cpp)                     | Week 09 | Maximum Independent Set              | Solved            |
 | Real Estate Market                  | [main.cpp](week09/real_estate_market/src/main.cpp)                  | Week 09 | Min Cost Max Flow                    | Solved            |
-| Casino Royale                       | [main.cpp](week09/casino_royale/src/main.cpp)                       | Week 09 | -                                    | TODO              |
+| Casino Royale                       | [main.cpp](week09/casino_royale/src/main.cpp)                       | Week 09 | Min Cost Max Flow                    | Solved            |
 | Hand*                               | [main.cpp](week09/hand/src/main.cpp)                                | Week 09 | -                                    | TODO              |
 | Clues                               | [main.cpp](week10/clues/src/main.cpp)                               | Week 10 | -                                    | TODO              |
 | DHL                                 | [main.cpp](week10/DHL/src/main.cpp)                                 | Week 10 | DP                                   | Solved            |
