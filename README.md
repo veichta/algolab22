@@ -21,7 +21,7 @@
 | Greyjoy*                            | [main.cpp](week03/greyjoy/src/main.cpp)                             | Week 03 | Sliding Window                       | Solved            |
 | Hit                                 | [main.cpp](week04/hit/src/main.cpp)                                 | Week 04 | Intersection Test                    | Solved            |
 | Antenna                             | [main.cpp](week04/antenna/src/main.cpp)                             | Week 04 | Min Enclosing Circle                 | Solved            |
-| Hiking Map                          | [main.cpp](week04/hiking_map/src/main.cpp)                          | Week 04 | -                                    | TODO              |
+| Hiking Map                          | [main.cpp](week04/hiking_map/src/main.cpp)                          | Week 04 | Sliding Window & Intersection Test   | Solved            |
 | First Hit                           | [main.cpp](week04/first_hit/src/main.cpp)                           | Week 04 | Intersection Test                    | Solved            |
 | Tracking*                           | [main.cpp](week04/tracking/src/main.cpp)                            | Week 04 | -                                    | TODO              |
 | Boats                               | [main.cpp](week05/boats/src/main.cpp)                               | Week 05 | Greedy                               | Solved            |
