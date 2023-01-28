@@ -23,7 +23,7 @@
 | Antenna                             | [main.cpp](week04/antenna/src/main.cpp)                             | Week 04 | Min Enclosing Circle                 | Solved            |
 | Hiking Map                          | [main.cpp](week04/hiking_map/src/main.cpp)                          | Week 04 | Sliding Window & Intersection Test   | Solved            |
 | First Hit                           | [main.cpp](week04/first_hit/src/main.cpp)                           | Week 04 | Intersection Test                    | Solved            |
-| Tracking*                           | [main.cpp](week04/tracking/src/main.cpp)                            | Week 04 | -                                    | TODO              |
+| Tracking*                           | [main.cpp](week04/tracking/src/main.cpp)                            | Week 04 | Shortest Paths                       | Solved            |
 | Boats                               | [main.cpp](week05/boats/src/main.cpp)                               | Week 05 | Greedy                               | Solved            |
 | Moving Books                        | [main.cpp](week05/moving_books/src/main.cpp)                        | Week 05 | Greedy                               | Solved            |
 | Severus Snape                       | [main.cpp](week05/severus_snape/src/main.cpp)                       | Week 05 | DP & Greedy                          | Solved            |
