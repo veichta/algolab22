@@ -15,7 +15,8 @@ typedef CGAL::Quadratic_program<IT> Program;
 typedef CGAL::Quadratic_program_solution<ET> Solution;
 
 
-bool check_lp(const vector<vector<int>> stalls, int a, int p) {
+
+bool check_lp(const vector<vector<int>> &stalls, int a, int p) {
   int n = stalls.size();
   Program lp (CGAL::SMALLER, true, 0, true, 1);
 
@@ -25,10 +26,10 @@ bool check_lp(const vector<vector<int>> stalls, int a, int p) {
   const int H3 = 2;
   
   for (int i=0; i<n; i++) {
-    int k_prime = stalls[i][2] + (a * a);
-    int l_prime = stalls[i][3] + (p * p);
-    int m_prime = stalls[i][4] + (a * p);
-    lp.set_a(H1, i, -k_prime); lp.set_a(H2, i, -l_prime); lp.set_a(H3, i, -m_prime);
+    int k_pr_ame = stalls[i][2] + (a * a);
+    int l_pr_ame = stalls[i][3] + (p * p);
+    int m_pr_ame = stalls[i][4] + (a * p);
+    lp.set_a(H1, i, -k_pr_ame); lp.set_a(H2, i, -l_pr_ame); lp.set_a(H3, i, -m_pr_ame);
     lp.set_b(i, stalls[i][1] - stalls[i][0]);
   }
 
@@ -39,8 +40,7 @@ bool check_lp(const vector<vector<int>> stalls, int a, int p) {
 
   // solve the program
   Solution s = CGAL::solve_linear_program(lp, ET());
-  assert(s.solves_linear_program(lp));
-  
+
   // output solution
   // std::cout << s; 
   
@@ -73,12 +73,17 @@ void solve() {
   }
   
   int res = 49;
-  for (int i=0; i<=4; i++) {
-    for (int j=0; j<=4; j++) {
-      bool success = check_lp(stalls, A[i], P[j]);
-      if (success) {
-        res = min(res, i + j);
-      }
+  
+  int low = 0;
+  int high = 24;
+  
+  while (low <= 24 and high >= 0) {
+    bool success = check_lp(stalls, A[low], P[high]);
+    if (success) {
+      res = min(res, high+low);
+      high--;
+    } else {
+      low++;
     }
   }
   
@@ -87,6 +92,7 @@ void solve() {
   } else {
     cout << "Impossible!" << endl;
   }
+  
 }
 
 
