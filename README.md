@@ -27,7 +27,7 @@
 | Boats                               | [main.cpp](week05/boats/src/main.cpp)                               | Week 05 | Greedy                               | Solved            |
 | Moving Books                        | [main.cpp](week05/moving_books/src/main.cpp)                        | Week 05 | Greedy                               | Solved            |
 | Severus Snape                       | [main.cpp](week05/severus_snape/src/main.cpp)                       | Week 05 | DP & Greedy                          | Solved            |
-| Asterix the Gaul                    | [main.cpp](week05/asterix_the_gaul/src/main.cpp)                    | Week 05 | -                                    | TODO              |
+| Asterix the Gaul                    | [main.cpp](week05/asterix_the_gaul/src/main.cpp)                    | Week 05 | Split & List                         | Solved            |
 | Motorcycles*                        | [main.cpp](week05/motorcycles/src/main.cpp)                         | Week 05 | Intersection Test                    | In Progress       |
 | Maximize It                         | [main.cpp](week06/what_is_the_max/src/main.cpp)                     | Week 06 | Linear Programing                    | Solved            |
 | Diet                                | [main.cpp](week06/diet/src/main.cpp)                                | Week 06 | Linear Programing                    | Solved            |
