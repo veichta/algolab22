@@ -37,7 +37,7 @@
 | Coin Tossing Tournament             | [main.cpp](week07/coin_tossing_tournament/src/main.cpp)             | Week 07 | Max Flow                             | Solved            |
 | Shopping Trip                       | [main.cpp](week07/shopping_trip/src/main.cpp)                       | Week 07 | Max Flow                             | Solved            |
 | London                              | [main.cpp](week07/london/src/main.cpp)                              | Week 07 | Max Flow                             | Solved            |
-| Tiles                               | [main.cpp](week07/tiles/src/main.cpp)                               | Week 07 | -                                    | TODO              |
+| Tiles                               | [main.cpp](week07/tiles/src/main.cpp)                               | Week 07 | Max Flow / Max Matching              | Solved            |
 | The Augean Stables*                 | [main.cpp](week07/the_augean_stables/src/main.cpp)                  | Week 07 | Linear Programing                    | Solved            |
 | Bistro                              | [main.cpp](week08/bistro/src/main.cpp)                              | Week 08 | Triangulation                        | Solved            |
 | Light the Stage                     | [main.cpp](week08/light_the_stage/src/main.cpp)                     | Week 08 | Triangulation                        | Solved            |
