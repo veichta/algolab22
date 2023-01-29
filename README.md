@@ -41,7 +41,7 @@
 | The Augean Stables*                 | [main.cpp](week07/the_augean_stables/src/main.cpp)                  | Week 07 | Linear Programing                    | Solved            |
 | Bistro                              | [main.cpp](week08/bistro/src/main.cpp)                              | Week 08 | Triangulation                        | Solved            |
 | Light the Stage                     | [main.cpp](week08/light_the_stage/src/main.cpp)                     | Week 08 | Triangulation                        | Solved            |
-| H1N1                                | [main.cpp](week08/h1n1/src/main.cpp)                                | Week 08 | -                                    | TODO              |
+| H1N1                                | [main.cpp](week08/h1n1/src/main.cpp)                                | Week 08 | Triangulation                        | Solved            |
 | Germs                               | [main.cpp](week08/germs/src/main.cpp)                               | Week 08 | Triangulation                        | Solved            |
 | Knights*                            | [main.cpp](week08/knights/src/main.cpp)                             | Week 08 | Max Flow                             | Solved            |
 | Algocoon                            | [main.cpp](week09/algocoon/src/main.cpp)                            | Week 09 | Min Cut                              | Solved            |
