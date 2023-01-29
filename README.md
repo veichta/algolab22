@@ -49,7 +49,7 @@
 | Real Estate Market                  | [main.cpp](week09/real_estate_market/src/main.cpp)                  | Week 09 | Min Cost Max Flow                    | Solved            |
 | Casino Royale                       | [main.cpp](week09/casino_royale/src/main.cpp)                       | Week 09 | Min Cost Max Flow                    | Solved            |
 | Hand*                               | [main.cpp](week09/hand/src/main.cpp)                                | Week 09 | -                                    | TODO              |
-| Clues                               | [main.cpp](week10/clues/src/main.cpp)                               | Week 10 | -                                    | TODO              |
+| Clues                               | [main.cpp](week10/clues/src/main.cpp)                               | Week 10 | Connected Components & Triangulation | Solved            |
 | DHL                                 | [main.cpp](week10/DHL/src/main.cpp)                                 | Week 10 | DP                                   | Solved            |
 | New York                            | [main.cpp](week10/new_york/src/main.cpp)                            | Week 10 | -                                    | In Progress (40%) |
 | Fleetrace                           | [main.cpp](week10/fleetrace/src/main.cpp)                           | Week 10 | Min Cost Max Flow                    | Solved            |
