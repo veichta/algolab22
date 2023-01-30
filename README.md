@@ -54,7 +54,7 @@
 | New York                            | [main.cpp](week10/new_york/src/main.cpp)                            | Week 10 | -                                    | In Progress (40%) |
 | Fleetrace                           | [main.cpp](week10/fleetrace/src/main.cpp)                           | Week 10 | Min Cost Max Flow                    | Solved            |
 | New Tiles                           | [main.cpp](week10/new_tiles/src/main.cpp)                           | Week 10 | -                                    | TODO              |
-| Ceryneian Hind*                     | [main.cpp](week10/ceryneian_hind/src/main.cpp)                      | Week 10 | -                                    | TODO              |
+| Ceryneian Hind*                     | [main.cpp](week10/ceryneian_hind/src/main.cpp)                      | Week 10 | Max Flow                             | Solved            |
 | Asterix in Switzerland              | [main.cpp](week11/asterix_in_switzerland/src/main.cpp)              | Week 11 | Max Flow                             | Solved            |
 | The Fighting Pits of Meereen        | [main.cpp](week11/the_fighting_pits_of_meereen/src/main.cpp)        | Week 11 | -                                    | TODO              |
 | Sith                                | [main.cpp](week11/sith/src/main.cpp)                                | Week 11 | Connected Components & Triangulation | Solved            |
