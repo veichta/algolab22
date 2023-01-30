@@ -59,7 +59,7 @@
 | The Fighting Pits of Meereen        | [main.cpp](week11/the_fighting_pits_of_meereen/src/main.cpp)        | Week 11 | -                                    | TODO              |
 | Sith                                | [main.cpp](week11/sith/src/main.cpp)                                | Week 11 | Connected Components & Triangulation | Solved            |
 | World Cup                           | [main.cpp](week11/worldcup/src/main.cpp)                            | Week 11 | Linear Programing                    | Solved            |
-| Rubeus Hagrid*                      | [main.cpp](week11/rubeus_hagrid/src/main.cpp)                       | Week 11 | -                                    | TODO              |
+| Rubeus Hagrid*                      | [main.cpp](week11/rubeus_hagrid/src/main.cpp)                       | Week 11 | Greedy                               | Solved            |
 | Car Sharing                         | [main.cpp](week12/car_sharing/src/main.cpp)                         | Week 12 | -                                    | TODO              |
 | Lord Voldemort                      | [main.cpp](week12/lord_voldemort/src/main.cpp)                      | Week 12 | -                                    | TODO              |
 | Nemean Lion                         | [main.cpp](week12/nemean_lion/src/main.cpp)                         | Week 12 | -                                    | TODO              |
