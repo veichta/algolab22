@@ -61,7 +61,7 @@
 | World Cup                           | [main.cpp](week11/worldcup/src/main.cpp)                            | Week 11 | Linear Programing                    | Solved            |
 | Rubeus Hagrid*                      | [main.cpp](week11/rubeus_hagrid/src/main.cpp)                       | Week 11 | Greedy                               | Solved            |
 | Car Sharing                         | [main.cpp](week12/car_sharing/src/main.cpp)                         | Week 12 | -                                    | TODO              |
-| Lord Voldemort                      | [main.cpp](week12/lord_voldemort/src/main.cpp)                      | Week 12 | -                                    | TODO              |
+| Lord Voldemort                      | [main.cpp](week12/lord_voldemort/src/main.cpp)                      | Week 12 | DP & Sliding Window                  | Solved            |
 | Nemean Lion                         | [main.cpp](week12/nemean_lion/src/main.cpp)                         | Week 12 | -                                    | TODO              |
 | On her Majesty's Secret Service     | [main.cpp](week12/on_her_majestys_secret_service/src/main.cpp)      | Week 12 | Max Matching & Shortest Paths        | Solved            |
 | Strikesback*                        | [main.cpp](week12/strikesback/src/main.cpp)                         | Week 12 | -                                    | TODO              |
